@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: Heebo, sans-serif;
+}
+
+body {
+	background-image: url(https://avatars.mds.yandex.net/i?id=08a3045076351abc6048ef4164970aa40808b341-10870632-images-thumbs&n=13);
+}
+.container {
+	max-width: 1280px;
+	width: 100%;
+	margin-inline: auto;
+	padding-inline: 40px;
+}
+#my_home {
+	display: flex;
+	justify-content: space-around;
+}
+#house {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	background-color: black;
+	max-width: 400px;
+	height: 650px;
+	width: 100%;
+	margin-top: 50px;
+	gap: 20px;
+	text-align: end;
+}
+.floor {
+	display: flex;
+	color: azure;
+	width: 120px;
+	margin-left: 220px;
+	padding-block: 10px;
+	padding-left: 20px;
+	background-color: gray;
+}
+#lift {
+	width: 60px;
+	height: 40px;
+	background-color: rgb(159, 158, 158);
+	position: absolute;
+	left: 400px;
+	top: 640px;
+}
+
+#btn-click {
+	width: 300px;
+	height: 400px;
+	margin-inline: 40px;
+	background-color: rgb(67, 65, 65);
+	margin-top: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+#btn {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 20px;
+	background-color: rgb(167, 165, 165);
+	border: none;
+	cursor: pointer;
+}
