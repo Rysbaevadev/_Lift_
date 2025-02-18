@@ -41,6 +41,36 @@ body {
 	padding-left: 20px;
 	background-color: gray;
 }
+#floor {
+	top: 450px;
+}
+#floor2 {
+	top: 400px;
+}
+#floor3 {
+	top: 350px;
+}
+#floor4 {
+	top: 300px;
+}
+#floor5 {
+	top: 250px;
+}
+#floor6 {
+	top: 200px;
+}
+#floor7 {
+	top: 150px;
+}
+#floor8 {
+	top: 100px;
+}
+#floor9 {
+	top: 50px;
+}
+#floor10 {
+	top: 0px;
+}
 #lift {
 	width: 60px;
 	height: 40px;
@@ -73,4 +103,5 @@ body {
 	background-color: rgb(167, 165, 165);
 	border: none;
 	cursor: pointer;
+	font-weight: 500;
 }
